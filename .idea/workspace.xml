@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f613fc-7c82-43bf-ba16-631a845db778" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Meal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,11 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="522">
+              <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,14 +102,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Calc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Meal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Account.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AccountTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Order.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Meal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" />
       </list>
     </option>
   </component>
@@ -246,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571431344454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571432466199" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -272,7 +285,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTest.testIfTwoMealListAreTheSame">
+  <component name="RunManager" selected="JUnit.MealTest.exceptionShouldBeThrownIfDiscountIsHigherThanThePrice">
+    <configuration name="MealTest.exceptionShouldBeThrownIfDiscountIsHigherThanThePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.DominasPL.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.DominasPL.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.MealTest" />
+      <option name="METHOD_NAME" value="exceptionShouldBeThrownIfDiscountIsHigherThanThePrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderTest.addingMealToOrderShouldIncreaseOrderSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
@@ -284,22 +313,6 @@
       <option name="PACKAGE_NAME" value="com.github.DominasPL.junit5" />
       <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.OrderTest" />
       <option name="METHOD_NAME" value="addingMealToOrderShouldIncreaseOrderSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest.mealListShouldBeEmptyAfterCreationOfOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.DominasPL.junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.DominasPL.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.OrderTest" />
-      <option name="METHOD_NAME" value="mealListShouldBeEmptyAfterCreationOfOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -355,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MealTest.exceptionShouldBeThrownIfDiscountIsHigherThanThePrice" />
         <item itemvalue="JUnit.OrderTest.testIfTwoMealListAreTheSame" />
         <item itemvalue="JUnit.OrderTest.mealsShouldBeInCorrectOrderAfterAddingThemToOrder" />
         <item itemvalue="JUnit.OrderTest.removingMealFromOrderShouldDecreaseOrderSize" />
         <item itemvalue="JUnit.OrderTest.addingMealToOrderShouldIncreaseOrderSize" />
-        <item itemvalue="JUnit.OrderTest.mealListShouldBeEmptyAfterCreationOfOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -373,26 +386,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571423514945</updated>
-      <workItem from="1571423519392" duration="7530000" />
+      <workItem from="1571423519392" duration="8530000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderTest_addingMealToOrderShouldIncreaseOrderSize - 2019.10.18 at 22h 31m 25s.xml">
-      <configuration name="OrderTest.addingMealToOrderShouldIncreaseOrderSize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_addingMealToOrderShouldIncreaseOrderSize - 2019.10.18 at 22h 31m 48s.xml">
-      <configuration name="OrderTest.addingMealToOrderShouldIncreaseOrderSize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_addingMealToOrderShouldIncreaseOrderSize - 2019.10.18 at 22h 32m 23s.xml">
-      <configuration name="OrderTest.addingMealToOrderShouldIncreaseOrderSize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_removingMealFromOrderShouldDecreaseOrderSize - 2019.10.18 at 22h 35m 48s.xml">
-      <configuration name="OrderTest.removingMealFromOrderShouldDecreaseOrderSize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_removingMealFromOrderShouldDecreaseOrderSize - 2019.10.18 at 22h 36m 55s.xml">
-      <configuration name="OrderTest.removingMealFromOrderShouldDecreaseOrderSize" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderTest_removingMealFromOrderShouldDecreaseOrderSize - 2019.10.18 at 22h 37m 06s.xml">
       <configuration name="OrderTest.removingMealFromOrderShouldDecreaseOrderSize" configurationId="JUnit" />
     </history-entry>
@@ -408,9 +406,24 @@
     <history-entry file="OrderTest_mealsShouldBeInCorrectOrderAfterAddingThemToOrder - 2019.10.18 at 22h 39m 22s.xml">
       <configuration name="OrderTest.mealsShouldBeInCorrectOrderAfterAddingThemToOrder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderTest_testIfTwoMealListAreTheSame - 2019.10.18 at 22h 41m 57s.xml">
+      <configuration name="OrderTest.testIfTwoMealListAreTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_testIfTwoMealListAreTheSame - 2019.10.18 at 22h 42m 17s.xml">
+      <configuration name="OrderTest.testIfTwoMealListAreTheSame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MealTest_exceptionShouldBeThrownIfDiscountIsHigherThanThePrice - 2019.10.18 at 23h 00m 17s.xml">
+      <configuration name="MealTest.exceptionShouldBeThrownIfDiscountIsHigherThanThePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MealTest_exceptionShouldBeThrownIfDiscountIsHigherThanThePrice - 2019.10.18 at 23h 00m 24s.xml">
+      <configuration name="MealTest.exceptionShouldBeThrownIfDiscountIsHigherThanThePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MealTest_exceptionShouldBeThrownIfDiscountIsHigherThanThePrice - 2019.10.18 at 23h 00m 33s.xml">
+      <configuration name="MealTest.exceptionShouldBeThrownIfDiscountIsHigherThanThePrice" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7530000" />
+    <option name="totallyTimeSpent" value="8530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -487,23 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -551,16 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -577,10 +563,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Meal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="522">
+          <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
