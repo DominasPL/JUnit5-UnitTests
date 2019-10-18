@@ -55,9 +55,5 @@ class MealTest {
         //then
         assertEquals(meal1, meal2);
         assertThat(meal1, equalToObject(meal2));
-
-        if(encoder.encode(userService.getLoggedUser().getPassword()).equals(passwordForm.getOldPassword())){
-
-
-        }
+    }
 }
