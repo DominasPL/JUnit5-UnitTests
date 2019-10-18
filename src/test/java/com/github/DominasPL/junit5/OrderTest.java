@@ -1,5 +1,7 @@
 package com.github.DominasPL.junit5;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -10,6 +12,20 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OrderTest {
+
+    private Order order;
+
+
+
+    @BeforeEach
+    void setUp() {
+        order = new Order();
+    }
+
+    @AfterEach
+    void cleanUp() {
+        order.cancel();
+    }
 
     @Test
     void testAssertArrayEquals() {
@@ -23,9 +39,6 @@ class OrderTest {
 
     @Test
     void mealListShouldBeEmptyAfterCreationOfOrder() {
-        //given
-        Order order = new Order();
-
         //then
         assertThat(order.getMeals(), empty());
         assertThat(order.getMeals().size(), equalTo(0));
@@ -39,7 +52,6 @@ class OrderTest {
         //given
         Meal meal1 = new Meal(10, "Burger");
         Meal meal2 = new Meal(2, "Sandwich");
-        Order order = new Order();
 
         //when
         order.addMealToOrder(meal1);
@@ -56,7 +68,6 @@ class OrderTest {
     void removingMealFromOrderShouldDecreaseOrderSize() {
         //given
         Meal meal1 = new Meal(10, "Burger");
-        Order order = new Order();
 
         //when
         order.addMealToOrder(meal1);
@@ -74,7 +85,6 @@ class OrderTest {
         //given
         Meal meal1 = new Meal(10, "Burger");
         Meal meal2 = new Meal(1, "Ice cream");
-        Order order = new Order();
 
         //when
         order.addMealToOrder(meal1);
