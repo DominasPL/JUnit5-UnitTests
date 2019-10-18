@@ -2,6 +2,8 @@ package com.github.DominasPL.junit5;
 
 import org.junit.jupiter.api.Test;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MealTest {
@@ -17,6 +19,8 @@ class MealTest {
 
         //then
         assertEquals(25, discountedPrice);
+        assertThat(discountedPrice, equalTo(25));
+        assertThat(discountedPrice, is(25));
     }
 
     @Test
@@ -27,6 +31,7 @@ class MealTest {
 
         //then
         assertSame(meal1, meal2);
+        assertThat(meal1, sameInstance(meal2));
     }
 
     @Test
@@ -37,6 +42,7 @@ class MealTest {
 
         //then
         assertNotSame(meal1, meal2);
+        assertThat(meal1, not(sameInstance(meal2)));
     }
 
     @Test
@@ -48,5 +54,10 @@ class MealTest {
 
         //then
         assertEquals(meal1, meal2);
-    }
+        assertThat(meal1, equalToObject(meal2));
+
+        if(encoder.encode(userService.getLoggedUser().getPassword()).equals(passwordForm.getOldPassword())){
+
+
+        }
 }
