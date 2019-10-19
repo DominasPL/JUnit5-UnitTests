@@ -75,7 +75,7 @@ class AccountTest {
         Account account = new Account(address);
 
         //then
-        assumingThat(address != null, () -> {
+        assumingThat(address == null, () -> {
             assertTrue(account.isActive());
         });
     }
