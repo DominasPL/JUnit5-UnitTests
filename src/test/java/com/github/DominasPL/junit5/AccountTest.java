@@ -1,10 +1,12 @@
 package com.github.DominasPL.junit5;
 
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 class AccountTest {
 
@@ -60,5 +62,21 @@ class AccountTest {
         //then
         assertNotNull(accountAddress);
         assertThat(accountAddress, is(notNullValue()));
+    }
+
+    @Test
+    @RepeatedTest(10)
+    void newAccountWithNotNullAddressShouldBeActive() {
+
+        //given
+        Address address = new Address("SIenkiewczia", "14d");
+
+        //when
+        Account account = new Account(address);
+
+        //then
+        assumingThat(address != null, () -> {
+            assertTrue(account.isActive());
+        });
     }
 }
