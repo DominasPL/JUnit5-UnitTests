@@ -1,6 +1,7 @@
 package com.github.DominasPL.junit5;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -98,6 +99,16 @@ class MealTest {
         assertThat(name, notNullValue());
     }
 
+    @ParameterizedTest
+    @ValueSource(ints = {1,3,5,8})
+    @ExtendWith(IaExceptionIgnoreExtension.class)
+    void mealPricesShouldBeLowerThan10(int price) {
+        if (price > 5) {
+            throw new IllegalArgumentException();
+        }
+        assertThat(price, lessThan(20));
+    }
+
     private static Stream<Arguments> createMealsWithNameAndPrice() {
         return Stream.of(
                 Arguments.of("Hamburger", 10),
@@ -109,5 +120,7 @@ class MealTest {
         List<String> cakeNames = Arrays.asList("CheeseCake", "FruitCake", "AppleCake");
         return cakeNames.stream();
     }
+
+
 
 }

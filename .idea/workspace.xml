@@ -4,10 +4,8 @@
     <list default="true" id="61f613fc-7c82-43bf-ba16-631a845db778" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/DominasPL/junit5/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/DominasPL/junit5/AccountTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/DominasPL/junit5/MealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/github/DominasPL/junit5/MealTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,6 +18,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="105" column="24" lean-forward="true" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Address.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -31,23 +53,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AddressTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/addresses.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/BeforeAfterExtension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,9 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +91,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Calc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Address.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Order.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Meal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/OrderBackup.java" />
@@ -84,9 +102,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/OrderStatus.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderStatusTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AddressTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/addresses.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AddressTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/BeforeAfterExtension.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/IaExceptionIgnoreExtension.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" />
       </list>
     </option>
   </component>
@@ -186,6 +207,51 @@
               <item name="junit5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="DominasPL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="DominasPL" type="462c0819:PsiDirectoryNode" />
+              <item name="junit5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -198,7 +264,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571489948406" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571491791602" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -225,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames">
+  <component name="RunManager" selected="JUnit.MealTest.mealPricesShouldBeLowerThan10">
     <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
@@ -258,22 +324,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealTest.burgerShouldHaveCorrectNameAndPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.DominasPL.junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.DominasPL.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.MealTest" />
-      <option name="METHOD_NAME" value="burgerShouldHaveCorrectNameAndPrice(java.lang.String,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MealTest.cakeNamesShouldEndWithCake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
@@ -290,7 +340,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderStatusTest.allOrderStatusShouldBeShorterThan15Characters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MealTest.mealPricesShouldBeLowerThan10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
         <pattern>
@@ -299,20 +349,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.github.DominasPL.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.OrderStatusTest" />
-      <option name="METHOD_NAME" value="allOrderStatusShouldBeShorterThan15Characters(com.github.DominasPL.junit5.OrderStatus)" />
+      <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.MealTest" />
+      <option name="METHOD_NAME" value="mealPricesShouldBeLowerThan10(int)" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.DominasPL.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.DominasPL.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.OrderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MealTest.mealPricesShouldBeLowerThan10" />
+        <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" />
         <item itemvalue="JUnit.AddressTest.givenAddressesShouldNotBeEmptyAndHaveProperNames" />
         <item itemvalue="JUnit.MealTest.cakeNamesShouldEndWithCake" />
-        <item itemvalue="JUnit.MealTest.burgerShouldHaveCorrectNameAndPrice" />
-        <item itemvalue="JUnit.OrderStatusTest.allOrderStatusShouldBeShorterThan15Characters" />
       </list>
     </recent_temporary>
   </component>
@@ -327,50 +392,50 @@
       <option name="presentableId" value="Default" />
       <updated>1571423514945</updated>
       <workItem from="1571423519392" duration="10714000" />
-      <workItem from="1571477779880" duration="4973000" />
+      <workItem from="1571477779880" duration="6186000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderStatusTest_allOrderStatusShouldBeShorterThan15Characters - 2019.10.19 at 14h 40m 20s.xml">
-      <configuration name="OrderStatusTest.allOrderStatusShouldBeShorterThan15Characters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderStatusTest_allOrderStatusShouldBeShorterThan15Characters - 2019.10.19 at 14h 40m 30s.xml">
-      <configuration name="OrderStatusTest.allOrderStatusShouldBeShorterThan15Characters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MealTest_burgerShouldHaveCorrectNameAndPrice - 2019.10.19 at 14h 44m 42s.xml">
-      <configuration name="MealTest.burgerShouldHaveCorrectNameAndPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MealTest_cakeNamesShouldEndWithCake - 2019.10.19 at 14h 47m 30s.xml">
-      <configuration name="MealTest.cakeNamesShouldEndWithCake" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MealTest_cakeNamesShouldEndWithCake - 2019.10.19 at 14h 47m 36s.xml">
-      <configuration name="MealTest.cakeNamesShouldEndWithCake" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddressTest_givenAddressesShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 51m 59s.xml">
-      <configuration name="AddressTest.givenAddressesShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddressTest_givenAddressesShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 52m 06s.xml">
-      <configuration name="AddressTest.givenAddressesShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 54m 10s.xml">
-      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 54m 49s.xml">
       <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 57m 03s.xml">
       <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 57m 47s.xml">
+      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 58m 04s.xml">
+      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 58m 57s.xml">
+      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 59m 04s.xml">
+      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 59m 10s.xml">
+      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2019.10.19 at 15h 23m 27s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2019.10.19 at 15h 24m 18s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MealTest_mealPricesShouldBeLowerThan10 - 2019.10.19 at 15h 28m 41s.xml">
+      <configuration name="MealTest.mealPricesShouldBeLowerThan10" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15687000" />
+    <option name="totallyTimeSpent" value="16900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -462,16 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -543,32 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1855#1856#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AddressTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,6 +612,53 @@
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/BeforeAfterExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AddressTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/IaExceptionIgnoreExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="105" column="24" lean-forward="true" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
