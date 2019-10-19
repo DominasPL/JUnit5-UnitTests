@@ -1,6 +1,7 @@
 package com.github.DominasPL.junit5;
 
 import org.junit.jupiter.api.DynamicTest;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestFactory;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -90,6 +91,7 @@ class MealTest {
         assertThat(price, lessThan(20));
     }
 
+    @Tag("hamburger")
     @ParameterizedTest
     @MethodSource("createMealsWithNameAndPrice")
     void burgerShouldHaveCorrectNameAndPrice(String name, int price) {
@@ -135,6 +137,7 @@ class MealTest {
         );
     }
 
+    @Tag("hamburger")
     @TestFactory
     Collection<DynamicTest> calculateMealPrices() {
 

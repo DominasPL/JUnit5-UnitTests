@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f613fc-7c82-43bf-ba16-631a845db778" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Meal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,15 +14,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3794#3795#0" expanded="true" />
                 <element signature="e#3831#3832#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AccountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,6 +98,12 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="694" />
@@ -234,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571492463798" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571492791648" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -261,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MealTest.calculateMealPrices">
+  <component name="RunManager" selected="JUnit.HamburgerTests">
     <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
@@ -274,6 +291,17 @@
       <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.AddressTest" />
       <option name="METHOD_NAME" value="givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamburgerTests" type="JUnit" factoryName="JUnit">
+      <module name="junit5" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="hamburger" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -341,6 +369,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.HamburgerTests" />
+      <item itemvalue="JUnit.AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" />
+      <item itemvalue="JUnit.MealTest.calculateMealPrices" />
+      <item itemvalue="JUnit.MealTest.dynamicTestCollection" />
+      <item itemvalue="JUnit.MealTest.mealPricesShouldBeLowerThan10" />
+      <item itemvalue="JUnit.OrderTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MealTest.calculateMealPrices" />
@@ -362,23 +398,11 @@
       <option name="presentableId" value="Default" />
       <updated>1571423514945</updated>
       <workItem from="1571423519392" duration="10714000" />
-      <workItem from="1571477779880" duration="6670000" />
+      <workItem from="1571477779880" duration="7215000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 58m 04s.xml">
-      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 58m 57s.xml">
-      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 59m 04s.xml">
-      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddressTest_givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames - 2019.10.19 at 14h 59m 10s.xml">
-      <configuration name="AddressTest.givenAddressesFromFileShouldNotBeEmptyAndHaveProperNames" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderTest - 2019.10.19 at 15h 23m 27s.xml">
       <configuration name="OrderTest" configurationId="JUnit" />
     </history-entry>
@@ -397,9 +421,21 @@
     <history-entry file="MealTest_dynamicTestCollection - 2019.10.19 at 15h 34m 39s.xml">
       <configuration name="MealTest.dynamicTestCollection" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MealTest_calculateMealPrices - 2019.10.19 at 15h 40m 24s.xml">
+      <configuration name="MealTest.calculateMealPrices" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MealTest_calculateMealPrices - 2019.10.19 at 15h 40m 36s.xml">
+      <configuration name="MealTest.calculateMealPrices" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MealTest_calculateMealPrices - 2019.10.19 at 15h 40m 44s.xml">
+      <configuration name="MealTest.calculateMealPrices" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HamburgerTests - 2019.10.19 at 15h 45m 48s.xml">
+      <configuration name="HamburgerTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17384000" />
+    <option name="totallyTimeSpent" value="17929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -431,25 +467,13 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32982844" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java</url>
-          <line>129</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/DominasPL/junit5/Calc.java" />
@@ -535,16 +559,6 @@
             <element signature="e#569#570#0" expanded="true" />
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -636,12 +650,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/MealTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3794#3795#0" expanded="true" />
             <element signature="e#3831#3832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
