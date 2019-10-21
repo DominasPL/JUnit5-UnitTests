@@ -1,5 +1,7 @@
 package com.github.DominasPL.junit5;
 
+import com.github.DominasPL.junit5.order.Order;
+
 import java.util.ArrayList;
 import java.util.List;
 
