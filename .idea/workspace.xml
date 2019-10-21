@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f613fc-7c82-43bf-ba16-631a845db778" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/cart/CartServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/cart/CartServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/cart/CartServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
-              <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+              <caret line="155" column="82" selection-start-line="155" selection-start-column="82" selection-end-line="155" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -360,9 +359,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571680784246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571683100587" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/MyProjects/AgeOfEmpiresIII-REST" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -395,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CartServiceTest.canHandleCartShouldThrowException">
+  <component name="RunManager" selected="JUnit.CartServiceTest.processCartShouldSendToPrepareWithArgumentCaptor">
     <configuration name="CartServiceTest.canHandleCartShouldReturnMultipleValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
@@ -428,22 +428,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartServiceTest.processCartShouldNotSendToPrepare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.DominasPL.junit5.cart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.DominasPL.junit5.cart" />
-      <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.cart.CartServiceTest" />
-      <option name="METHOD_NAME" value="processCartShouldNotSendToPrepare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CartServiceTest.processCartShouldNotSendToPrepareWithArgumentMatchers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
@@ -455,6 +439,22 @@
       <option name="PACKAGE_NAME" value="com.github.DominasPL.junit5.cart" />
       <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.cart.CartServiceTest" />
       <option name="METHOD_NAME" value="processCartShouldNotSendToPrepareWithArgumentMatchers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartServiceTest.processCartShouldSendToPrepareWithArgumentCaptor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.DominasPL.junit5.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.DominasPL.junit5.cart" />
+      <option name="MAIN_CLASS_NAME" value="com.github.DominasPL.junit5.cart.CartServiceTest" />
+      <option name="METHOD_NAME" value="processCartShouldSendToPrepareWithArgumentCaptor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -489,19 +489,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.HamburgerTests" />
-      <item itemvalue="JUnit.CartServiceTest.processCartShouldNotSendToPrepare" />
       <item itemvalue="JUnit.CartServiceTest.processCartShouldNotSendToPrepareWithArgumentMatchers" />
       <item itemvalue="JUnit.CartServiceTest.canHandleCartShouldReturnMultipleValues" />
       <item itemvalue="JUnit.CartServiceTest.processCartShouldSendToPrepareWithLambdas" />
       <item itemvalue="JUnit.CartServiceTest.canHandleCartShouldThrowException" />
+      <item itemvalue="JUnit.CartServiceTest.processCartShouldSendToPrepareWithArgumentCaptor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartServiceTest.processCartShouldSendToPrepareWithArgumentCaptor" />
         <item itemvalue="JUnit.CartServiceTest.canHandleCartShouldThrowException" />
         <item itemvalue="JUnit.CartServiceTest.processCartShouldSendToPrepareWithLambdas" />
         <item itemvalue="JUnit.CartServiceTest.canHandleCartShouldReturnMultipleValues" />
         <item itemvalue="JUnit.CartServiceTest.processCartShouldNotSendToPrepareWithArgumentMatchers" />
-        <item itemvalue="JUnit.CartServiceTest.processCartShouldNotSendToPrepare" />
       </list>
     </recent_temporary>
   </component>
@@ -517,23 +517,11 @@
       <updated>1571423514945</updated>
       <workItem from="1571423519392" duration="10714000" />
       <workItem from="1571477779880" duration="7286000" />
-      <workItem from="1571673248896" duration="6731000" />
+      <workItem from="1571673248896" duration="7806000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CartServiceTest_processCartShouldSendToPrepare - 2019.10.21 at 19h 18m 47s.xml">
-      <configuration name="CartServiceTest.processCartShouldSendToPrepare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartServiceTest_processCartShouldSendToPrepare - 2019.10.21 at 19h 32m 27s.xml">
-      <configuration name="CartServiceTest.processCartShouldSendToPrepare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartServiceTest_processCartShouldSendToPrepare - 2019.10.21 at 19h 33m 06s.xml">
-      <configuration name="CartServiceTest.processCartShouldSendToPrepare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartServiceTest_processCartShouldSendToPrepare - 2019.10.21 at 19h 34m 43s.xml">
-      <configuration name="CartServiceTest.processCartShouldSendToPrepare" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CartServiceTest_processCartShouldSendToPrepare - 2019.10.21 at 19h 35m 27s.xml">
       <configuration name="CartServiceTest.processCartShouldSendToPrepare" configurationId="JUnit" />
     </history-entry>
@@ -552,9 +540,21 @@
     <history-entry file="CartServiceTest_canHandleCartShouldReturnMultipleValues - 2019.10.21 at 19h 53m 38s.xml">
       <configuration name="CartServiceTest.canHandleCartShouldReturnMultipleValues" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CartServiceTest_processCartShouldSendToPrepareWithLambdas - 2019.10.21 at 19h 57m 13s.xml">
+      <configuration name="CartServiceTest.processCartShouldSendToPrepareWithLambdas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartServiceTest_processCartShouldSendToPrepareWithLambdas - 2019.10.21 at 19h 57m 22s.xml">
+      <configuration name="CartServiceTest.processCartShouldSendToPrepareWithLambdas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartServiceTest_processCartShouldSendToPrepareWithLambdas - 2019.10.21 at 19h 57m 31s.xml">
+      <configuration name="CartServiceTest.processCartShouldSendToPrepareWithLambdas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartServiceTest_canHandleCartShouldThrowException - 2019.10.21 at 19h 59m 41s.xml">
+      <configuration name="CartServiceTest.canHandleCartShouldThrowException" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24731000" />
+    <option name="totallyTimeSpent" value="25806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -889,7 +889,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/DominasPL/junit5/cart/CartServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
-          <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
+          <caret line="155" column="82" selection-start-line="155" selection-start-column="82" selection-end-line="155" selection-end-column="82" />
         </state>
       </provider>
     </entry>

@@ -3,6 +3,7 @@ package com.github.DominasPL.junit5.cart;
 import com.github.DominasPL.junit5.order.Order;
 import com.github.DominasPL.junit5.order.OrderStatus;
 import org.junit.jupiter.api.Test;
+import org.mockito.ArgumentCaptor;
 import org.mockito.InOrder;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -139,5 +140,31 @@ class CartServiceTest {
 
         //then
         assertThrows(IllegalArgumentException.class, () -> cartService.processCart(cart));
+    }
+
+    @Test
+    void processCartShouldSendToPrepareWithArgumentCaptor() {
+
+        //given
+        Order order = new Order();
+        Cart cart = new Cart();
+        cart.addOrderToCart(order);
+
+        CartHandler cartHandler = mock(CartHandler.class);
+        CartService cartService = new CartService(cartHandler);
+
+        ArgumentCaptor<Cart> argumentCaptor = ArgumentCaptor.forClass(Cart.class);
+
+        when(cartHandler.canHandleCart(cart)).thenReturn(true);
+
+        //when
+        Cart resultCart = cartService.processCart(cart);
+
+        //then
+        verify(cartHandler).sendToPrepare(argumentCaptor.capture());
+
+        assertThat(argumentCaptor.getValue().getOrders().size(), equalTo(1));
+        assertThat(resultCart.getOrders(), hasSize(1));
+        assertThat(resultCart.getOrders().get(0).getOrderStatus(), equalTo(OrderStatus.PREPARING));
     }
 }
