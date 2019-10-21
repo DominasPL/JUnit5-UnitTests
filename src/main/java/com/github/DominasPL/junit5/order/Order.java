@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Order {
 
+    private OrderStatus orderStatus;
     private List<Meal> meals = new ArrayList<>();
 
     public List<Meal> getMeals() {
@@ -21,8 +22,16 @@ public class Order {
         this.meals.remove(meal);
     }
 
+    public OrderStatus getOrderStatus() {
+        return orderStatus;
+    }
+
     public void cancel() {
         this.meals.clear();
+    }
+
+    public void changeOrderStatus(OrderStatus orderStatus) {
+        this.orderStatus = orderStatus;
     }
 
     @Override

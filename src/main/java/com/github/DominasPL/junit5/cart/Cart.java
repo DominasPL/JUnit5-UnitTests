@@ -1,5 +1,6 @@
-package com.github.DominasPL.junit5;
+package com.github.DominasPL.junit5.cart;
 
+import com.github.DominasPL.junit5.Meal;
 import com.github.DominasPL.junit5.order.Order;
 
 import java.util.ArrayList;
@@ -25,7 +26,7 @@ public class Cart {
             order.addMealToOrder(meal);
             addOrderToCart(order);
         }
-        System.out.println("Cart size " + orders.size());
+        System.out.println("cart size " + orders.size());
         clearCart();
     }
 

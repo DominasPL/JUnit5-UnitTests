@@ -1,5 +1,6 @@
-package com.github.DominasPL.junit5;
+package com.github.DominasPL.junit5.cart;
 
+import com.github.DominasPL.junit5.cart.Cart;
 import com.github.DominasPL.junit5.order.Order;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,7 +16,7 @@ class CartTest {
 
     @Test
 //    @Disabled
-    @DisplayName("Cart is able to process 1000 orders in 100ms")
+    @DisplayName("cart is able to process 1000 orders in 100ms")
     void simulateLargeOrder() {
 
         //given
